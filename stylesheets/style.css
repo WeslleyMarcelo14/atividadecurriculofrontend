@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f3e9;
+  color: #333;
+  margin: 20px;
+  text-align: center;
+}
+
+#header {
+  padding: 20px;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-family: 'Courier Prime', monospace;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #333;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* Contato */
+.contact-info {
+  margin: 5px 0;
+  font-size: 0.9em;
+  font-style: oblique;
+}
+
+.contact-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: #004499;
+  text-decoration: underline;
+}
+
+.section {
+  padding: 15px 0;
+  margin-top: 15px;
+  border-bottom: 2px solid #ddd; 
+}
+
+.section:last-of-type {
+  border-bottom: none; 
+}
+
+.section h2 {
+  color: #444;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.section ul {
+  list-style: none; 
+  padding-left: 0;
+}
+
+.section ul li {
+  text-align: center;
+  font-style: italic;
+  margin-top: 8px;
+  position: relative;
+}
+
+.section ul li::before,
+.section ul li::after {
+  content: "-";
+  margin: 0 8px;
+  color: #666;
+}
+
+.section p {
+  text-align: center;
+  font-size: 0.95em;
+  line-height: 1.5;
+  font-style: italic;
+  position: relative;
+}
+
+.section p::before,
+.section p::after {
+  content: "-";
+  margin: 0 8px;
+  color: #666;
+}
+
+a[target="_blank"] {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #004499;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8em;
+  color: #777;
+  border-top: 2px solid #ddd;
+  margin-top: 20px;
+  font-style: italic;
+}
